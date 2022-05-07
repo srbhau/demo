@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 #Read dataset
-dataset=pd.read_csv('kdata.csv')
+dataset=pd.read_csv('/content/sample_data/kdata.csv')
 X=dataset.iloc[:,:-1].values
 y=dataset.iloc[:,2].values
 
@@ -16,7 +16,7 @@ classifier.fit(X,y)
 #predict the class for the point(6,6)
 X_test=np.array([6,6])
 y_pred=classifier.predict([X_test])
-print 'General KNN', y_pred
+print ('General KNN', y_pred)
 
 classifier=KNeighborsClassifier(n_neighbors=3,weights='distance')
 classifier.fit(X,y)
@@ -24,7 +24,7 @@ classifier.fit(X,y)
 #predict the class for the point(6,6)
 X_test=np.array([6,2])
 y_pred=classifier.predict([X_test])
-print'Distance Weighted KNN', y_pred
+print('Distance Weighted KNN', y_pred)
 
 #Output:
 #ubuntu@ubuntu-Veriton-M200-H81:~$ python third.py
