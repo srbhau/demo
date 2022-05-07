@@ -1,31 +1,4 @@
 
-<!DOCTYPE html>
-<html>
-<head>
-     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">     <meta name="language" content="English">                                                         
-
-
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-
-
-</head>
-<body>
-<header>
-
-</header>
-
-<section>
-
-<div class="main">
-
-</div>
-
-
-
-</section>
-
-<p>
   :::LINEAR REGRESSION::::
   
 import matplotlib.pyplot as plt
@@ -63,11 +36,11 @@ plt.show()
 
 
 
-  
-</p>
 
   
-  <p> :::D. TREE CLASSIFIER:::
+  
+  
+  :::D. TREE CLASSIFIER:::
     
 import pandas as pd
 import numpy as np
@@ -113,11 +86,8 @@ graph.write_png('tree.png')
 
 
     
-    
-  </p> 
-  
-  
-  <p>:::KNN:::
+ :::KNN:::
+ 
     #program for KNN 
 #import the packages
 import pandas as pd
@@ -152,11 +122,10 @@ print'Distance Weighted KNN', y_pred
 #Distance Weighted KNN ['positive']
 
 
-    
-  </p>
-  
-  
-   <p>:::KMEAN:::
+
+:::KMEAN:::
+
+
      #Program for K-means algo
 
 #import packages
@@ -224,10 +193,11 @@ print('M1==',new_centroids[0])
 print('M1==',new_centroids[1])
 
     
-  </p>
-  
-  
-   <p>:::DES:::
+ 
+ 
+ :::DES:::
+ 
+ 
      from Crypto.Cipher import DES 
 from secrets import  token_bytes
 
@@ -261,10 +231,11 @@ else:
 
 
     
-  </p>
   
   
-   <p>:::AES:::
+  :::AES:::
+  
+  
      from Crypto.Cipher import AES 
 from secrets import  token_bytes
 
@@ -298,11 +269,10 @@ else:
 
 
     
-  </p>
+  
+  :::DIFF-HELL:::
   
   
-  
-   <p>:::DIFF-HELL:::
      #Diffie Hellman Key Exchange Alogorithm
 # Begin
 sharedPrime = int(input("Enter shared Prime(n):"))
@@ -333,11 +303,11 @@ print( "    Bob Shared Secret: ", bobSharedSecret )
 
 
     
-  </p>
   
   
+  :::RSA:::
   
-   <p>:::RSA:::
+  
      '''
 RSA Encryption
 '''
@@ -456,17 +426,4 @@ if __name__ == '__main__':
     print ("Your message is:")
     print (decrypt(public, encrypted_msg))
 
-    
-  </p>
-  
-  
-  
-   <p>
-    
-  </p>
 
-
-
-
-</body>
-</html>
